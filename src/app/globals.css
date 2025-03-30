@@ -12,32 +12,15 @@
 
 .animated{
     position: absolute;
-    top: 25%;
-    left: 65%;
-    animation: bouncing 2.5s infinite linear ;
+    top: 20%;
+    left: 40%;
+
 }
 .borderBlur {
   -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
   mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
 }
 
-@keyframes bouncing{
-  0%{
-    top: 25%;
-    
-
-  }
-  50%{
-    top: 20%;
-    
-    
-  }
-  100%{
-    top: 25%;
-    
-
-  }
-}
 
 @theme inline {
   --color-background: var(--background);

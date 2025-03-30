@@ -1,14 +1,20 @@
-import Body from "./components/Body";
+import About from "./components/About";
+import Body from "./components/Header";
 import Navbar from "./components/Navbar";
 
 const page = () => {
   return (
-    <div className="w-screen bg-[#1A1A2E] h-screen flex flex-col">
+    <div className="w-full bg-[#112] overflow-hidden flex flex-col">
       <div>
         <Navbar />
       </div>
-     
+     <div className="w-full overflow-hidden">
         <Body/>
+        </div>
+        
+        <div>
+        <About/>
+        </div>
         
     </div>
   );
