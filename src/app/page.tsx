@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 
 const page = () => {
   return (
-    <div className="w-full bg-[#112] overflow-hidden flex flex-col">
+    <div className="w-full bg-[#000] overflow-hidden flex flex-col">
       <div>
         <Navbar />
       </div>
