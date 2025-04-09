@@ -1,6 +1,8 @@
 import About from "./components/About";
 import Body from "./components/Header";
 import Navbar from "./components/Navbar";
+import ProjectsWork from "./components/ProjectsWork";
+
 
 const page = () => {
   return (
@@ -16,6 +18,10 @@ const page = () => {
         <About/>
         </div>
         
+        <div>
+          <ProjectsWork/>
+        </div>
+
     </div>
   );
 };
